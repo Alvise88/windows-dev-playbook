@@ -1,0 +1,6 @@
+---
+
+- name: Installing packages.
+  community.windows.win_scoop:
+    name: "{{ item }}"
+  loop: "{{ scoop_packages }}"

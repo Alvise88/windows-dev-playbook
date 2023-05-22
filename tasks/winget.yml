@@ -1,0 +1,12 @@
+---
+- name: Install winget packages.
+  ansible.windows.win_powershell:
+    script: |
+      $app = "{{ item.name | default(item) }}"
+      if ($(winget list $app) -like "*No installed package found*") {
+        winget install --accept-package-agreements --accept-source-agreements -h -s "winget" $app
+      }
+      else {
+        ECHO Y | cmd /c winget upgrade $app --accept-package-agreements --accept-source-agreements
+      }
+  loop: "{{ winget_packages }}"

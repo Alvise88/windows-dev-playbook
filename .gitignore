@@ -1,0 +1,8 @@
+history.txt
+deployment.key
+ssh.key
+gpg.key
+public.key
+vault_password.txt
+.argo-ci/*.cue
+secrets.config.yml

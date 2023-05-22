@@ -1,0 +1,6 @@
+ansible-compat==2.2.1
+ansible-core==2.13.9
+ansible-lint==6.16.1
+pywinrm==0.4.3
+pywinrm[credssp]==0.4.3
+pywinrm[kerberos]==0.4.3
