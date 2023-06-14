@@ -36,7 +36,7 @@
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
-				"editor.fontFamily": "'Go Mono', Menlo, Monaco, 'Courier New', monospace",
+				"editor.fontFamily": "'FantasqueSansM Nerd Font', Menlo, Monaco, 'Courier New', monospace",
 				"editor.fontSize": 16,
 				"editor.find.addExtraSpaceOnTop": false,
 				"editor.formatOnPaste": true,
@@ -72,7 +72,7 @@
 					"**/handlers/*.yml": "ansible",
 					"**/defaults/*.yml": "ansible",
 					"*verify.yml": "ansible",
-					"*init.yml": "yaml",
+					"*init.yml": "yaml"
 				},
 				"terminal.integrated.fontFamily": "'FantasqueSansM Nerd Font', Menlo, Monaco, 'Courier New', monospace",
 				"terminal.integrated.fontSize": 16,
